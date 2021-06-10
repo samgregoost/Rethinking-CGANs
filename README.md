@@ -10,7 +10,7 @@ Scipy = 1.4
 In the current version, the data directories and other paths should be directly edited in the code. We will update the repo with a more cleaned-up and a refactored version soon. 
 
 # Train
-python p2pGeo.py --mode=visualize
+python p2pGeo.py --mode=train
 
 # Visualize
 python p2pGeo.py --mode=visualize
