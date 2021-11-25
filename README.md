@@ -11,10 +11,12 @@ Scipy = 1.4
 The training files should be put in data_dir/images/training/
 The validation files should be put in data_dir/images/validation/
 
-Each training and validation file should be a concatination of the input and the corresponding output. 
+Each training and validation file should be a concatination of the input and the corresponding output. An example is shown below:
+
+![alt text](./images/30_AB.jpg "Title")
 
 # Train
-python p2pGeo.py --mode=train
+python p2pGeo.py --mode=train --data_dir=<data directory> --learning_rate=
 
 # Visualize
 python p2pGeo.py --mode=visualize
