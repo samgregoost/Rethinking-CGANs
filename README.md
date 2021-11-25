@@ -7,8 +7,11 @@ Tensorflow = 1.9
 Python = 3.x
 Scipy = 1.4
 
-# Important
-In the current version, the data directories and other paths should be directly edited in the code. We will update the repo with a more cleaned-up and a refactored version soon. 
+# Data preparation
+The training files should be put in data_dir/images/training/
+The validation files should be put in data_dir/images/validation/
+
+Each training and validation file should be a concatination of the input and the corresponding output. 
 
 # Train
 python p2pGeo.py --mode=train
