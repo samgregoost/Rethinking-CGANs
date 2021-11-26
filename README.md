@@ -17,7 +17,7 @@ Each training and validation file should be a concatination of the input and the
 ![alt text](./images/30_AB.jpg "Title")
 
 # Train
-> python p2p_geo.py --mode=train --data_dir=*data directory* --learning_rate=1-e4 --logs_dir=*logs directory* --batch_size = 25
+> python p2p_geo.py --mode=train --data_dir=*data directory* --learning_rate=1-e4 --logs_dir=*logs directory* --batch_size=25
 
 # Visualize
 > python p2pGeo.py --mode=visualize
